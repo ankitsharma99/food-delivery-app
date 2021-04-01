@@ -1,4 +1,9 @@
 /*Css reset*/
+/* font-family: 'Chelsea Market', cursive;
+font-family: 'Hind Siliguri', sans-serif; 
+font-family: 'Akaya Kanadaka', cursive;
+font-family: 'Architects Daughter', cursive;
+*/
 
 * {
   margin: 0;
@@ -80,7 +85,7 @@
 
 #home::before {
   content: "";
-  background: url("../img/garlicbread.jpg") no-repeat center center/cover;
+  background: url("../img/fries.jpg") no-repeat center center/cover;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -88,9 +93,30 @@
   opacity: 0.49;
 }
 
+#home h1 {
+  color: black;
+  text-align: center;
+  font-family: "Hind Siliguri", bold;
+}
+#home p {
+  color: black;
+  font-size: 1.7rem;
+  font-family: "Hind Siliguri", sans-serif;
+}
 /* Utility classes */
 
 .h-primary {
-  font-size: 2.8rem;
-  padding: 12px;
+  font-size: 3.8rem;
+  padding: 20px;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: 2px solid black;
+  background-color: transparent;
+  font-family: "Chelsea Market", cursive;
+  margin: 20px;
+  font-size: 1.6 rem;
+  border-radius: 25px;
+  cursor: pointer;
 }
