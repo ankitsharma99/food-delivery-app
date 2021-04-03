@@ -21,6 +21,8 @@ font-family: 'Architects Daughter', cursive;
 #navbar {
   display: flex;
   align-items: center;
+  position: relative;
+  top: 0px;
 }
 
 /* Logo and image */
@@ -37,9 +39,7 @@ font-family: 'Architects Daughter', cursive;
 }
 
 /*List styling*/
-#navbar {
-  position: relative;
-}
+
 #navbar ul {
   display: flex;
 }
@@ -48,7 +48,7 @@ font-family: 'Architects Daughter', cursive;
   content: "";
   background-color: black;
   position: absolute;
-  height: 68%;
+  height: 70%;
   width: 100%;
   z-index: -1;
   opacity: 0.2;
@@ -62,7 +62,7 @@ font-family: 'Architects Daughter', cursive;
 #navbar ul li a {
   color: white;
   display: block;
-  padding: 20px;
+  padding: 25px;
   border-radius: 50px;
   text-decoration: none;
   font-family: "Hind Siliguri", sans-serif;
@@ -88,10 +88,12 @@ font-family: 'Architects Daughter', cursive;
   content: "";
   background: url("../img/fries.jpg") no-repeat center center/cover;
   position: absolute;
-  height: 100%;
+  height: 125%;
   width: 100%;
   z-index: -1;
   opacity: 0.49;
+  top: 0px;
+  left: 0px;
 }
 
 #home h1 {
@@ -107,13 +109,17 @@ font-family: 'Architects Daughter', cursive;
 
 /* Services section */
 #services {
-  margin: 50px;
+  margin: 20px;
   display: flex;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 #services .box {
   border: 2px solid brown;
-  border-radius: 20px;
+  border-radius: 27px;
+  margin: 23px 16px;
+  padding: 5px 35px;
+  background-color: rgb(230, 234, 238);
 }
 
 #services .box img {
@@ -122,15 +128,30 @@ font-family: 'Architects Daughter', cursive;
   margin: auto;
 }
 
+/* Clients section */
+#client-section {
+  height: 44px;
+}
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clients img {
+  height: 140px;
+}
 /* Utility classes */
 
 .h-primary {
   font-size: 3.8rem;
   padding: 50px 50px;
+  font-family: "Hind Siliguri", bold;
 }
 .h-secondary {
   font-size: 1.8rem;
   padding: 40px 50px;
+  font-family: "Hind Siliguri", bold;
 }
 
 .btn {
